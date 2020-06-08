@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reset_username"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/icon_fragment_bg"
+    tools:context="com.example.administrator.words.ResetUsername">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="请输入用户名"
+        android:textColorHint="#000"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:id="@+id/resetusername_et"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/main_et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="修改"
+        android:textSize="20sp"
+        android:background="@drawable/icon_button"
+        android:id="@+id/resetusername_btn"/>
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_explain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="none"
+    tools:context="com.example.administrator.words.Explain"
+    android:background="@drawable/icon_fragment_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.您在登陆时所设定的id会在屏幕的右上方显示"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text=" 2.在主界面点击“录入”、“背诵”等按钮会跳转至相应的不同面板。 "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:text=" 3.在“录入”界面点击“录入”按钮能把输入的单词录入到“背诵单词库”与“单词库”中。 "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 4.录入时，如果单词拥有ion、ment等标志性名词结尾，则录入时翻译前面会自动补充“n. ”。翻译以“的”等结尾。"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="40dp"
+            android:text=" 5.在“背诵”和“复习”界面点击“认识”按钮会从背诵单词库中删除该单词，点击“不认识”按钮则会显示翻译，点击“下一个”按钮会显示下个单词。 "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:text=" 6.为了更方便查看单词，在“个人中心”界面，点击“背诵单词库”按钮会显示待背诵的所有单词，点击“复习单词库”按钮会显示待复习的所有单词。点击“单词库”按钮会显示加入过的所有单词。 "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginTop="40dp"
+            android:text=" 7.“背诵单词库”和“复习单词库”两功能只能用于快捷查看库中单词，不能用于进行操作。 "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text=" 8.“单词库”中存放所有被加入过的单词，这些单词不会被删除，长按某个单词可以将该单词重新加入到“背诵单词库”中等待背诵。点击单词可进行修改。  "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text=" 9.“Difficult单词库”中为较难的单词，即被多次加入输入的单词。  "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:text=" 10.“查词”界面可以联网查询，有“英译汉”和“汉译英”两种查询方式，并可以将查询的单词添加到单词库中。 "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:text=" 11.提醒：鉴于“单词库”中单词不会被删除，因此软件会随着单词录入增多而占用内存增大。"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="8"
+            android:hint="请输入单词"
+            android:gravity="center"
+            android:id="@+id/queryword_et"/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_chahao"
+            android:id="@+id/queryword_iv"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="这里显示查询结果"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:id="@+id/queryword_tv"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_button"
+            android:text="翻译"
+            android:id="@+id/queryword_bt"/>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_button"
+            android:text="添加"
+            android:id="@+id/queryword_bt_input"/>
+    </LinearLayout>
+
+</LinearLayout>
